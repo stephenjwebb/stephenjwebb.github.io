@@ -7,31 +7,48 @@ oriented = function(e) {
         }   else  { 
             compassHeading = e.alpha;
         }
+
+//North
         
 
-  if(compassHeading > 315 || compassHeading < 45) {
+  if(compassHeading > 315 || compassHeading < 0) {
                 text_area.textContent = compassHeading;
         }
 
-        if(compassHeading >= 45 && compassHeading < 90) {
-                text_area.textContent = "To the souvenir, workhouses.";
+// Northeast
+        if(compassHeading >= 0 || compassHeading < 45) {
+                text_area.textContent = compassHeading;
         }
+
+//East
+
+        if(compassHeading >= 45 && compassHeading < 90) {
+                text_area.textContent = "To the souvenir, workhouse";
+
+        }
+
+//Southeast
 
         if(compassHeading >= 90 && compassHeading < 135) {
                 text_area.textContent = "Those in the centre, cry";
         }
 
+//South
+
         if(compassHeading >= 135 && compassHeading < 180) {
                 text_area.textContent = "To the echelon, the workstation.";
         }
+
+//Southwest
 
         if(compassHeading >= 225 && compassHeading < 270) {
                 text_area.textContent = "Those in the centre, die";
         }
 
+//West
 
         if(compassHeading >= 270 && compassHeading < 315) {
-                text_area.textContent = "To the wheelbarrow, the worked.";
+                text_area.textContent = "The sun sets.", "<br/>", "sets", "<br/>", "sets", "<br/>", "sets", "<br/>", "sets";
         }
 
         // text_area.textContent = compassHeading;
