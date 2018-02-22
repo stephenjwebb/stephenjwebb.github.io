@@ -17,7 +17,7 @@ oriented = function(e) {
 
 // Northeast
         if(compassHeading >= 0 || compassHeading < 45) {
-                text_area.innerHTML = "Trees <br/> trees trees <br/> trees trees tre <br/> trees trees trees <br/> trees trees trees tre <br/> trees trees trees trees";
+                text_area.innerHTML = "Trees <br/> <br/> trees tre <br/> <br/> trees trees <br/> <br/> trees trees tre <br/> <br/> trees trees trees trees <br/> trees <br/> trees";
         }
 // 
 //East
@@ -30,7 +30,7 @@ oriented = function(e) {
 //Southeast
 
         if(compassHeading >= 90 && compassHeading < 135) {
-                text_area.textContent = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
+                text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
         }
 
 //South
