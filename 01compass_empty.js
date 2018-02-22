@@ -12,12 +12,12 @@ oriented = function(e) {
         
 
   if(compassHeading > 315 || compassHeading < 0) {
-                text_area.innerHTML = "Trees <br/> trees trees <br/> trees trees tre <br/> trees trees trees <br/> trees trees trees tre <br/> trees trees trees trees";
+                text_area.innerHTML = "Nothing";
         }
 
 // Northeast
         if(compassHeading >= 0 || compassHeading < 45) {
-                text_area.innerHTML = "Trees <br/> <br/> trees tre <br/> <br/> trees trees <br/> <br/> trees trees tre <br/> <br/> trees trees trees trees <br/> trees <br/> trees";
+                text_area.innerHTML = "Tr <br/> <br/> tre <br/> <br/> trees <br/> <br/> trees tr <br/> <br/> trees trees <br/> <br/> trees trees tr <br/> <br/> trees trees trees <br/> <br/> trees trees trees tr <br/> <br/> trees trees trees trees <br/> <br/> trees <br/> trees";
         }
 // 
 //East
