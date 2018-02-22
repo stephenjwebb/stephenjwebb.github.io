@@ -12,7 +12,7 @@ oriented = function(e) {
         
 
   if(compassHeading > 315 || compassHeading < 0) {
-                text_area.textContent = compassHeading;
+                text_area.textContent = "Trees <br/> trees trees <br/> trees trees tre <br/> trees trees trees <br/> trees trees trees tre <br/> trees trees trees trees";
         }
 
 // Northeast
@@ -30,13 +30,13 @@ oriented = function(e) {
 //Southeast
 
         if(compassHeading >= 90 && compassHeading < 135) {
-                text_area.textContent = "Those in the centre, cry";
+                text_area.textContent = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
         }
 
 //South
 
         if(compassHeading >= 135 && compassHeading < 180) {
-                text_area.textContent = "To the echelon, the workstation.";
+                text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
         }
 
 //Southwest
@@ -48,7 +48,7 @@ oriented = function(e) {
 //West
 
         if(compassHeading >= 270 && compassHeading < 315) {
-                text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets";
+                text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
         }
 
         // text_area.textContent = compassHeading;
