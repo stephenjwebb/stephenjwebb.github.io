@@ -13,15 +13,24 @@ oriented = function(e) {
                 text_area.textContent = compassHeading;
         }
 
-        if(compassHeading >= 45 && compassHeading < 135) {
+        if(compassHeading >= 45 && compassHeading < 90) {
                 text_area.textContent = "To the souvenir, workhouses.";
         }
 
-        if(compassHeading >= 135 && compassHeading < 225) {
+        if(compassHeading >= 90 && compassHeading < 135) {
+                text_area.textContent = "Those in the centre, cry";
+        }
+
+        if(compassHeading >= 135 && compassHeading < 180) {
                 text_area.textContent = "To the echelon, the workstation.";
         }
 
-        if(compassHeading >= 225 && compassHeading < 315) {
+        if(compassHeading >= 225 && compassHeading < 270) {
+                text_area.textContent = "Those in the centre, die";
+        }
+
+
+        if(compassHeading >= 270 && compassHeading < 315) {
                 text_area.textContent = "To the wheelbarrow, the worked.";
         }
 
