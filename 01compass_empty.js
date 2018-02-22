@@ -48,7 +48,7 @@ oriented = function(e) {
 //West
 
         if(compassHeading >= 270 && compassHeading < 315) {
-                text_area.textContent = "The sun sets.", "<br/>", "sets", "<br/>", "sets", "<br/>", "sets", "<br/>", "sets";
+                text_area.textContent = "The sun sets. <br/> sets <br/> sets <br/> sets <br/> sets";
         }
 
         // text_area.textContent = compassHeading;
