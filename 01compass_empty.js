@@ -14,15 +14,15 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "To the echelon, the workstation.";
+                text_area.textContent = "To the souvenir, workhouses.";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "The workhouses";
+                text_area.textContent = "To the echelon, the workstation.";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "The worked";
+                text_area.textContent = "To the wheelbarrow, the worked.";
         }
 
         // text_area.textContent = compassHeading;
