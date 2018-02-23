@@ -43,7 +43,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 
          if(compassHeading >= 135 && compassHeading < 180) {
                         text_area.style.wordWrap = "normal";
-                        text_area.style.width = window.innerWidth * 5 + "px"; 
+                        text_area.style.width = window.innerWidth * 6 + "px"; 
                          text_area.style.fontSize = '60px';
                          text_area.style.textAlign="left";
                           text_area.style.margin = "margin: 0% auto";
