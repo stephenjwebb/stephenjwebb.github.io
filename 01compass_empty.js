@@ -42,7 +42,7 @@ oriented = function(e) {
 
          if(compassHeading >= 135 && compassHeading < 180) {
                         text_area.style.wordWrap = "normal";
-                        text_area.style.width = "auto";
+                        text_area.style.width = "300%";
         } else {
             text_area.wordWrap = "break-word";
                         text_area.style.width = "80%"
