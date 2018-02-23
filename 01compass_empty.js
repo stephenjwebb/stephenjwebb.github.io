@@ -12,7 +12,8 @@ oriented = function(e) {
         
 
   if(compassHeading > 315 || compassHeading < 0) {
-                text_area.innerHTML = "Nothing";
+                text_area.innerHTML = "Building";
+//text_area.style.fontSize = '10vmax'
         }
 
 // Northeast
@@ -36,8 +37,18 @@ oriented = function(e) {
 //South
 
         if(compassHeading >= 135 && compassHeading < 180) {
-                text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
+                        text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
         }
+
+         if(compassHeading >= 135 && compassHeading < 180) {
+                        text_area.wordWrap = "normal";
+                        text_area.width = "auto";
+        } else {
+            text_area.wordWrap = "break-word";
+                        text_area.width = "80%"
+        }
+
+
 
 //Southwest
 
@@ -54,8 +65,10 @@ oriented = function(e) {
         // text_area.textContent = compassHeading;
         //calls function to alter content based on heading
        // myOrientation();
-    }
+    
 
+   // textSize = compassHeading;
+   // text_area.fontSize = textSize + "px";
 //device orientation that can track orientation on space
 	window.addEventListener('deviceorientation', oriented, false);
     

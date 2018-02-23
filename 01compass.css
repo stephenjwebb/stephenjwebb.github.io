@@ -5,7 +5,7 @@ http://www.w3schools.com/css/
 
 #compass_content {
 	/*set the font face and style here*/
-	font-family: monaco, monospace;
+	font-family: Arial, sans;
 	/*set the font size here (3vmax = 30% of viewing space)*/
 	font-size: 3vmax;
 	/*set text color here*/
