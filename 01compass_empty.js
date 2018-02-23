@@ -62,6 +62,8 @@ oriented = function(e) {
                 text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
         }
 
+    }
+
         // text_area.textContent = compassHeading;
         //calls function to alter content based on heading
        // myOrientation();
