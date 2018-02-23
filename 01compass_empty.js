@@ -11,13 +11,13 @@ oriented = function(e) {
 //North
         
 
-  if(compassHeading >= 315 || compassHeading < 0) {
-                text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/>";
+  if(compassHeading >= 315 && compassHeading < 360) {
+                text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round";
 //text_area.style.fontSize = '10vmax'
         }
 
 // Northeast
-        if(compassHeading >= 0 || compassHeading < 45) {
+        if(compassHeading >= 0 && compassHeading < 45) {
                 text_area.innerHTML = "Tr <br/> <br/> tre <br/> <br/> trees <br/> <br/> trees tr <br/> <br/> trees trees <br/> <br/> trees trees tr <br/> <br/> trees trees trees <br/> <br/> trees trees trees tr <br/> <br/> trees trees trees trees <br/> <br/> trees <br/> trees";
         }
 // 
