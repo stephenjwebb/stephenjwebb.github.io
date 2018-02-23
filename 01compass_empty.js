@@ -45,12 +45,12 @@ document.getElementById("compass").innerHTML = compassHeading;
                         text_area.style.wordWrap = "normal";
                         text_area.style.width = window.innerWidth * 5 + "px"; 
                          text_area.style.fontSize = '60px';
-                         text_area.style.align="left";
+                         text_area.style.textAlign="left";
         } else {
             text_area.wordWrap = "break-word";
                         text_area.style.width = "80%"
                          text_area.style.fontSize = '3vmax';
-                          text_area.style.align="center";
+                          text_area.style.textAlign="center";
         }
 
 
