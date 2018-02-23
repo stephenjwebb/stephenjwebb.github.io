@@ -41,11 +41,11 @@ oriented = function(e) {
         }
 
          if(compassHeading >= 135 && compassHeading < 180) {
-                        text_area.wordWrap = "normal";
-                        text_area.width = "auto";
+                        text_area.style.wordWrap = "normal";
+                        text_area.style.width = "auto";
         } else {
             text_area.wordWrap = "break-word";
-                        text_area.width = "80%"
+                        text_area.style.width = "80%"
         }
 
 
