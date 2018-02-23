@@ -11,7 +11,7 @@ oriented = function(e) {
 //North
         
 
-  if(compassHeading > 315 || compassHeading < 0) {
+  if(compassHeading >= 315 || compassHeading < 0) {
                 text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/>";
 //text_area.style.fontSize = '10vmax'
         }
@@ -60,7 +60,7 @@ oriented = function(e) {
 
 //West
 
-        if(compassHeading >= 270 && compassHeading <= 315) {
+        if(compassHeading >= 270 && compassHeading < 315) {
                 text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
         }
 
