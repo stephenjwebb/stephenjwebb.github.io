@@ -11,7 +11,7 @@ oriented = function(e) {
 //North
         
 
-  if(compassHeading > 315 || compassHeading < 0) {
+  if(compassHeading >= 315 || compassHeading < 0) {
                 text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/>";
 //text_area.style.fontSize = '10vmax'
         }
