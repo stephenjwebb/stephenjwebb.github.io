@@ -46,11 +46,13 @@ document.getElementById("compass").innerHTML = compassHeading;
                         text_area.style.width = window.innerWidth * 5 + "px"; 
                          text_area.style.fontSize = '60px';
                          text_area.style.textAlign="left";
+                          text_area.style.margin = "margin: 0% auto";
         } else {
             text_area.wordWrap = "break-word";
                         text_area.style.width = "80%"
                          text_area.style.fontSize = '3vmax';
                           text_area.style.textAlign="center";
+                          text_area.style.margin = "margin: 20% auto";
         }
 
 
