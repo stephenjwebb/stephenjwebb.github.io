@@ -47,6 +47,7 @@ oriented = function(e) {
         } else {
             text_area.wordWrap = "break-word";
                         text_area.style.width = "80%"
+                         text_area.style.fontSize = '3vmax';
         }
 
 
