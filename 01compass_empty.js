@@ -12,7 +12,7 @@ oriented = function(e) {
         
 document.getElementById("compass").innerHTML = compassHeading;
 
-  if(compassHeading >= 315 && compassHeading < 360) {
+  if(compassHeading >= 315 && compassHeading < 359) {
                 text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round";
 //text_area.style.fontSize = '10vmax'
         }
