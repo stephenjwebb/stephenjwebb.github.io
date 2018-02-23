@@ -12,7 +12,7 @@ oriented = function(e) {
         
 
   if(compassHeading > 315 || compassHeading < 0) {
-                text_area.innerHTML = "Building";
+                text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/>";
 //text_area.style.fontSize = '10vmax'
         }
 
@@ -24,7 +24,7 @@ oriented = function(e) {
 //East
 
         if(compassHeading >= 45 && compassHeading < 90) {
-                text_area.textContent = "To the souvenir, workhouse";
+                text_area.innerHTML = "Don't fall through the ice <br/> <br/> <br/> <br/> <br/> <br/> <br/> you";
 
         }
 
@@ -40,7 +40,7 @@ oriented = function(e) {
                         text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
         }
 
-         if(compassHeading >= 135 && compassHeading < 225) {
+        /* if(compassHeading >= 135 && compassHeading < 225) {
                         text_area.style.wordWrap = "normal";
                         text_area.style.width = "500%"; 
                          text_area.style.fontSize = '10vmax';
@@ -49,7 +49,7 @@ oriented = function(e) {
                         text_area.style.width = "80%"
                          text_area.style.fontSize = '3vmax';
         }
-
+*/
 
 
 //Southwest
