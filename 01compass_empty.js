@@ -41,16 +41,16 @@ document.getElementById("compass").innerHTML = compassHeading;
                         text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
         }
 
-        /* if(compassHeading >= 135 && compassHeading < 225) {
+         if(compassHeading >= 135 && compassHeading < 180) {
                         text_area.style.wordWrap = "normal";
-                        text_area.style.width = "500%"; 
-                         text_area.style.fontSize = '10vmax';
+                        text_area.style.width = window.innerWidth * 5 + "px"; 
+                         text_area.style.fontSize = '35px';
         } else {
             text_area.wordWrap = "break-word";
                         text_area.style.width = "80%"
                          text_area.style.fontSize = '3vmax';
         }
-*/
+
 
 
 //Southwest
