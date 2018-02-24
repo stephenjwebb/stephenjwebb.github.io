@@ -38,7 +38,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //South
 
         if(compassHeading >= 135 && compassHeading < 180) {
-                        text_area.textContent = "This line will continue... but end as you attempt to read it. And continue. And continue.";
+                        text_area.textContent = "Enjoying rolling on the ground?";
         }
 
          if(compassHeading >= 135 && compassHeading < 180) {
