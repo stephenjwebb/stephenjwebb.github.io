@@ -32,7 +32,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //Southeast
 
         if(compassHeading >= 90 && compassHeading < 135) {
-                text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
+                text_area.innerHTML = "someone is coming";
         }
 
 //South
