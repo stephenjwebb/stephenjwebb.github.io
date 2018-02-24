@@ -19,7 +19,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 
 // Northeast
         if(compassHeading >= 0 && compassHeading < 45) {
-                text_area.innerHTML = "ku <br/> <br/> kuu <br/> <br/> kuus <br/> <br/>  kuusi ku <br/> <br/> kuusi kuus <br/> <br/> kuusi kuusi <br/> <br/> kuusi kuusi kuusi <br/> <br/> kuusi kuusi kuusi kuu <br/> <br/> kuusi kuusi kuusi kuusi <br/> <br/> kuusi <br/> kuusi";
+                text_area.innerHTML = "you're all so phone obsessed";
         }
 // 
 //East
