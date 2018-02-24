@@ -25,7 +25,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //East
 
         if(compassHeading >= 45 && compassHeading < 90) {
-                text_area.innerHTML = "It has been a fairly warm winter. Do not linger on one spot too long, for fear of falling through the ice. <br/> <br/> <br/> <br/> <br/> <br/> you. here.";
+                text_area.innerHTML = "It has been a fairly warm winter. Do not linger on one spot too long, for fear of falling through the ice. <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> you. <br/> <br/> <br/> here.";
 
         }
 
@@ -38,7 +38,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //South
 
         if(compassHeading >= 135 && compassHeading < 180) {
-                        text_area.textContent = "This line will continue but end as you attempt to read it";
+                        text_area.textContent = "This line will continue... but end as you attempt to read it. And continue. And continue.";
         }
 
          if(compassHeading >= 135 && compassHeading < 180) {
@@ -60,7 +60,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //Southwest
 
         if(compassHeading >= 180 && compassHeading < 270) {
-                text_area.textContent = "I forgot to tell you. There's nothing to fear. We are learning this space. <br/> <br/> <br/> <br/> ........like you.";
+                text_area.innerHTML = "I forgot to tell you. There's nothing to fear. We are learning this space. <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>........like you.";
         }
 
 //West
