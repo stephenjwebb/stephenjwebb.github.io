@@ -66,7 +66,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //West
 
         if(compassHeading >= 270 && compassHeading < 315) {
-                text_area.innerHTML = "Maybe you should refresh your connection. I have more to say";
+                text_area.innerHTML = "There is little left to say to you all";
         }
 
     }
