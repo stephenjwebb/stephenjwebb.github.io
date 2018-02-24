@@ -13,19 +13,19 @@ oriented = function(e) {
 document.getElementById("compass").innerHTML = compassHeading;
 
   if(compassHeading >= 315 && compassHeading < 359) {
-                text_area.innerHTML = "round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round <br/> round, building, building, round";
+                text_area.innerHTML = "I am standing in a space very different from the one you are in now <br/> <br/> looking <br/> <br/> <br/> <br/> ....... have you noticed the typewriter?";
 //text_area.style.fontSize = '10vmax'
         }
 
 // Northeast
         if(compassHeading >= 0 && compassHeading < 45) {
-                text_area.innerHTML = "Tr <br/> <br/> tre <br/> <br/> trees <br/> <br/> trees tr <br/> <br/> trees trees <br/> <br/> trees trees tr <br/> <br/> trees trees trees <br/> <br/> trees trees trees tr <br/> <br/> trees trees trees trees <br/> <br/> trees <br/> trees";
+                text_area.innerHTML = "ku <br/> <br/> kuu <br/> <br/> kuus <br/> <br/>  kuusi ku <br/> <br/> kuusi kuus <br/> <br/> kuusi kuusi <br/> <br/> kuusi kuusi kuusi <br/> <br/> kuusi kuusi kuusi kuu <br/> <br/> kuusi kuusi kuusi kuusi <br/> <br/> kuusi <br/> kuusi";
         }
 // 
 //East
 
         if(compassHeading >= 45 && compassHeading < 90) {
-                text_area.innerHTML = "Don't fall through the ice <br/> <br/> <br/> <br/> <br/> <br/> <br/> you";
+                text_area.innerHTML = "It has been a fairly warm winter. Do not linger on one spot too long, for fear of falling through the ice. <br/> <br/> <br/> <br/> <br/> <br/> you. here.";
 
         }
 
@@ -38,7 +38,7 @@ document.getElementById("compass").innerHTML = compassHeading;
 //South
 
         if(compassHeading >= 135 && compassHeading < 180) {
-                        text_area.textContent = "The trees begin to unfurl, unending, and nature seems to be uncompromising. And Finns. And Trees Continue. And Continue. And Continue. And Continue. And Continue. And Continue. And Continue.";
+                        text_area.textContent = "This line will continue but end as you attempt to read it";
         }
 
          if(compassHeading >= 135 && compassHeading < 180) {
@@ -60,13 +60,13 @@ document.getElementById("compass").innerHTML = compassHeading;
 //Southwest
 
         if(compassHeading >= 180 && compassHeading < 270) {
-                text_area.textContent = "Those in the centre, die";
+                text_area.textContent = "I forgot to tell you. There's nothing to fear. We are learning this space. <br/> <br/> <br/> <br/> ........like you.";
         }
 
 //West
 
         if(compassHeading >= 270 && compassHeading < 315) {
-                text_area.innerHTML = "The sun... <br/> sets <br/> <br/> sets <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> sets <br/> <br/> <br/> <br/> <br/> <br/> sets";
+                text_area.innerHTML = "Maybe you should refresh your connection. I have more to say";
         }
 
     }
