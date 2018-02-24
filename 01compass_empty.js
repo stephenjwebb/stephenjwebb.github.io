@@ -13,7 +13,7 @@ oriented = function(e) {
 document.getElementById("compass").innerHTML = compassHeading;
 
   if(compassHeading >= 315 && compassHeading < 359) {
-                text_area.innerHTML = "I am standing in a space very different from the one you are in now <br/> <br/> looking <br/> <br/> <br/> <br/> ....... have you noticed the typewriter?";
+                text_area.innerHTML = "I am standing in a space very different from the one you are in now <br/> <br/> looking <br/> <br/> <br/> <br/> ....... I see you all?";
 //text_area.style.fontSize = '10vmax'
         }
 
@@ -23,7 +23,7 @@ document.getElementById("compass").innerHTML = compassHeading;
         }
 // 
 //East
-
+ 
         if(compassHeading >= 45 && compassHeading < 90) {
                 text_area.innerHTML = "It has been a fairly warm winter. Do not linger on one spot too long, for fear of falling through the ice. <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> you. <br/> <br/> <br/> here.";
 
